@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-
-const getRandomNumber = (min = 1, max = 100) =>
-    Math.floor(Math.random() * (max - min + 1)) + min;
+import getRandomNumber from '../random/random-numbers.js';
 
 const simple = (name) => {
     console.log('Answer "yes" if given number is prime. Otherwise answer "no".');

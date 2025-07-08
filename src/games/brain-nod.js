@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-
-const getRandomNumber = (min = 1, max = 100) =>
-    Math.floor(Math.random() * (max - min + 1)) + min;
+import getRandomNumber from '../random/random-numbers.js';
 
 const getNOD = (num1, num2) => {
     while (num2 !== 0) {
@@ -30,6 +28,7 @@ const nod = (name) => {
         console.log(`Let's try again, ${name}!`);
         return; 
       }
+      console.log(`Congratulations, ${name}!`);
 }
 }
 

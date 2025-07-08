@@ -1,15 +1,8 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
+import getRandomNumber from '../random/random-numbers.js';
+import getRandomOperator from '../random/random-operator.js';
 
-const getRandomNumber = (min = 1, max = 50) => 
-    Math.floor(Math.random() * (max - min + 1)) + min;
-
-
-  const getRandomOperator = () => {
-    const operators = ['+', '-', '*'];
-    const index = Math.floor(Math.random() * operators.length);
-    return operators[index];
-  };
   
   const calculate = (num1, num2, operator) => {
     switch (operator) {
