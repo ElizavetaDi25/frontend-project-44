@@ -6,7 +6,7 @@ const progress = (name) => {
 
   for (let i = 0; i < 3; i += 1) {
 
-    const start = Math.floor(Math.random() * 20)  
+    const start = Math.floor(Math.random() * 20)
     const step = Math.floor(Math.random() * 5) + 1
     const length = Math.floor(Math.random() * 6) + 5
 

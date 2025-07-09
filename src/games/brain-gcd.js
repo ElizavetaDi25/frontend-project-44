@@ -9,7 +9,7 @@ const getNOD = (num1, num2) => {
         num1 = temp
       }
       return num1
-}
+    }
 
 const nod = (name) => {
     console.log('Find the greatest common divisor of given numbers.')

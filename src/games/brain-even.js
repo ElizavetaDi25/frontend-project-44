@@ -10,9 +10,9 @@ const isEven = (name) => {
         console.log(`Question: ${number}`)
         const userAnswer = readlineSync.question('Your answer: ').toLowerCase()
         
-        if (userAnswer === correctAnswer){
+        if (userAnswer === correctAnswer) {
             console.log('Correct!')
-        } 
+        }
         else {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try again, ${name}!`)
             return
