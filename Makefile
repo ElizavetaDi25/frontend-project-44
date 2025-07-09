@@ -4,20 +4,20 @@ install:
 brain-games:
 	node bin/brain-games.js
 
-play-calc:
-	node bin/play-calc.js
+brain-calc:
+	node bin/brain-calc.js
 
-play-even:
-	node bin/play-even.js
+brain-even:
+	node bin/brain-even.js
 
-play-nod:
-	node bin/play-nod.js
+brain-nod:
+	node bin/brain-nod.js
 
-play-progress:
-	node bin/play-play-progress.js
+brain-progress:
+	node bin/brain-progress.js
 
-play-simple:
-	node bin/play-simple.js
+brain-simple:
+	node bin/brain-simple.js
 
 
 publish:
