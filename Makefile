@@ -10,8 +10,8 @@ brain-calc:
 brain-even:
 	node bin/brain-even.js
 
-brain-nod:
-	node bin/brain-nod.js
+brain-gcd:
+	node bin/brain-gcd.js
 
 brain-progress:
 	node bin/brain-progress.js
