@@ -16,22 +16,21 @@ const nod = (name) => {
 
     for (let i = 0; i < 3; i += 1) {
         const num1 = getRandomNumber()
-      const num2 = getRandomNumber()
-      let rightAnswer = getNOD(num1, num2)
-      console.log(`Question: ${num1} ${num2}`)
-
-      const userAnswer = readlineSync.question('Your answer: ')
-
-      if (Number(userAnswer) === rightAnswer) {
-        console.log('Correct!')
-      } 
-      else {
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`)
-        console.log(`Let's try again, ${name}!`)
-        return
+        const num2 = getRandomNumber()
+        let rightAnswer = getNOD(num1, num2)
+        console.log(`Question: ${num1} ${num2}`)
+        const userAnswer = readlineSync.question('Your answer: ')
+        
+        if (Number(userAnswer) === rightAnswer) {
+          console.log('Correct!')
+        }
+        else {
+          console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`)
+          console.log(`Let's try again, ${name}!`)
+          return
+        }
       }
-}
-console.log(`Congratulations, ${name}!`)
-}
+      console.log(`Congratulations, ${name}!`)
+    }
 
 export default nod

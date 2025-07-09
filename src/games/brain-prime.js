@@ -9,7 +9,6 @@ const simple = (name) => {
         const number = getRandomNumber()
         console.log(`Question: ${number}`)
         const userAnswer = readlineSync.question('Your answer: ')
-
         let rightAnswer = null
 
         for (let j = 2; j < number; j += 1) {
@@ -21,15 +20,13 @@ const simple = (name) => {
 
         if (userAnswer.toLowerCase() === rightAnswer) {
             console.log('Correct!')
-          } 
-          else 
-          {
+          } else {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`)
             console.log(`Let's try again, ${name}!`)
             return
-    }
-}
-console.log(`Congratulations, ${name}!`)
+          }
+        }
+    console.log(`Congratulations, ${name}!`)
 }
 
 export default simple
