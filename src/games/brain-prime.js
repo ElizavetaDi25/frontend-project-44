@@ -15,14 +15,16 @@ const simple = (name) => {
       if (number % j === 0) {
         rightAnswer = 'no'
         break
-      } else {
+      }
+      else {
         rightAnswer = 'yes'
       }
     }
 
     if (userAnswer.toLowerCase() === rightAnswer) {
       console.log('Correct!')
-    } else {
+    }
+    else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
       return

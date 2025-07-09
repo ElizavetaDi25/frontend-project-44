@@ -11,7 +11,8 @@ export const saveUsername = (name) => {
 export const getUsername = () => {
   try {
     return fs.readFileSync(filename, 'utf-8')
-  } catch (e) {
+  }
+  catch (e) {
     return null
   }
 }
