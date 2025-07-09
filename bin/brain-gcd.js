@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import nod from '../src/games/brain-nod.js';
+import nod from '../src/games/brain-gcd.js';
 
 import readlineSync from 'readline-sync';
 
