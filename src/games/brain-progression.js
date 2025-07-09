@@ -2,10 +2,9 @@
 import readlineSync from 'readline-sync'
 
 const progress = (name) => {
-    console.log('What number is missing in the progression?')
+  console.log('What number is missing in the progression?')
 
   for (let i = 0; i < 3; i += 1) {
-
     const start = Math.floor(Math.random() * 20)
     const step = Math.floor(Math.random() * 5) + 1
     const length = Math.floor(Math.random() * 6) + 5
@@ -26,8 +25,7 @@ const progress = (name) => {
 
     if (parseInt(userAnswer, 10) === correctAnswer) {
       console.log('Correct!')
-    } 
-    else {
+    } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
       return
