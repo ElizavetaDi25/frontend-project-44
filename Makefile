@@ -13,8 +13,8 @@ brain-even:
 brain-gcd:
 	node bin/brain-gcd.js
 
-brain-progress:
-	node bin/brain-progress.js
+brain-progression:
+	node bin/brain-progression.js
 
 brain-simple:
 	node bin/brain-simple.js

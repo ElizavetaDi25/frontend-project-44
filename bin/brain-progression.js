@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import progress from '../src/games/brain-progress.js';
+import progress from '../src/games/brain-progression.js';
 import readlineSync from 'readline-sync';
 
 
