@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import simple from '../src/games/brain-simple.js';
+import simple from '../src/games/brain-prime.js';
 import readlineSync from 'readline-sync';
 
 
