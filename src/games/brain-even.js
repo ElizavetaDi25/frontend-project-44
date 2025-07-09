@@ -2,6 +2,7 @@
 import readlineSync from 'readline-sync';
 
 
+
 const isEven = (name) => {
     console.log('Answer "yes" if the number is even, otherwise answer "no".')
     let number = 0
